@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    min-height: 100vh;
+    /* float: right; */
+    background: rgb(128, 1, 1);
+}
+/* ------------------------------------------------------ navbar -------------------------------------------------------  */
+.navbar {
+    display: flex;
+    background-color: black;
+}
+
+.btn-multicolor {
+    background: linear-gradient(to right, #ff00ff, #00ff00);
+    border: 5px solid #00ff00;
+
+    color: #fb0505;
+    transition: 0.3s, color 0.3s;
+}
+
+.btn-multicolor:hover {
+    background: linear-gradient(to right, #00ff00, #ff00ff);
+    color: #000000;
+    border-color: #ff00ff;
+}
+
+.navbar {
+    font-family: fantasy;
+    font-size: larger;
+}
+
+.container {
+    width: 50%;
+}
+
+.Hackathons {
+    float: right;
+    margin-bottom: 50px;
+    flex: end;
+}
+
+.image img {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-right: 50px;
+}
+
+.text {
+    color: rgb(1, 1, 20);
+    font-size: 16px; /* Adjust the font size as needed */
+    flex: end;
+    float:right;
+    font-family: fantasy;
+    text-align: right;
+    flex: 1;
+
+}

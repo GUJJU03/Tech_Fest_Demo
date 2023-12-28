@@ -1,0 +1,190 @@
+.navbar {
+    display: flex;
+    background-color: black;
+}
+
+.btn-multicolor {
+    background: linear-gradient(to right, #ff00ff, #00ff00);
+    border: 5px solid #00ff00;
+
+    color: #fb0505;
+    transition: 0.3s, color 0.3s;
+}
+
+.btn-multicolor:hover {
+    background: linear-gradient(to right, #00ff00, #ff00ff);
+    color: #000000;
+    border-color: #ff00ff;
+}
+
+.navbar {
+    font-family: fantasy;
+    font-size: larger;
+}
+
+.Hero {
+    background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-red-and-black-gaming-wallpaper-picture-image_1221227.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    /* Adjust the height as needed */
+    color: #fa0f0f;
+    /* Set text color to contrast with the background image */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+}
+
+.herotext {
+    max-width: max-content;
+}
+
+.h2 {
+    font-family: fantasy;
+}
+
+.projection {
+    animation: left-side 1.5s;
+    transition: 2s;
+}
+
+.hero-second {
+    animation: right-side 1.5s;
+    transition: 2s;
+}
+
+.hero-third {
+    animation: left-side 1.5s;
+    transition: 2s;
+}
+
+.hero-four {
+    animation: right-side 1.5s;
+    transition: 2s;
+}
+
+.hero-five {
+    animation: left-side 1.5s;
+    transition: 2s;
+}
+
+@keyframes left-side {
+    from {
+        margin-left: 2000px;
+    }
+
+    to {
+        margin-left: 0px;
+    }
+}
+
+@keyframes right-side {
+    from {
+        margin-right: 2000px;
+    }
+
+    to {
+        margin-right: 0px;
+    }
+}
+
+
+/* -------------------------------------------- second-section-------------------------------------------  */
+
+.secondsection {
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/black/black-contour-f41038db.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    /* Adjust the height as needed */
+    color: #ffffff;
+    /* Set text color to contrast with the background image */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    text-align: center;
+    /* justify-content: space-around; */
+    display: flex;
+    justify-content: space-between;
+    font-family: fantasy;
+    color: #fa0f0f;
+
+}
+
+.first-text,
+.second-text,
+.third-text {
+    flex: 1;
+    text-align: center;
+}
+
+.secondtext {
+    text-align: center;
+}
+
+
+/* -------------------------------------------- third-section-------------------------------------------  */
+.main-third {
+    background-image: url("https://img.freepik.com/premium-vector/abstract-black-red-halftone-dotted-background_567288-891.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703635200&semt=ais");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.thirdsection {
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 100vh;
+    color: #fa0f0f;
+
+}
+
+.Contentofthirdsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Contentofthirdsection img {
+    width: 40vw;
+    height: 55vh;
+}
+
+.third-section-text {
+    width: 45%;
+    margin-top: 45px;
+}
+
+
+/* ----------------------------------------------------------- footer ---------------------------------------------  */
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    text-justify: auto;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin:0 25px;
+    
+}
+
+footer .lower-footer {
+    bottom: 0;
+    color: white;
+    text-align: center;
+}

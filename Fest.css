@@ -1,0 +1,128 @@
+/* .navbar{
+    display: flex;
+    background-color: black;
+}
+
+.btn-multicolor {
+    background: linear-gradient(to right, #ff00ff, #00ff00);
+    border: 5px solid #00ff00;
+    
+    color: #fb0505;
+    transition:  0.3s, color 0.3s;
+}
+
+.btn-multicolor:hover {
+    background: linear-gradient(to right, #00ff00, #ff00ff);
+    color: #000000;
+    border-color: #ff00ff;
+}
+.navbar{
+    font-family:fantasy;
+    font-size: larger;
+}
+.Hero{
+    background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-red-and-black-gaming-wallpaper-picture-image_1221227.jpg");
+    background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 400px; /* Adjust the height as needed */
+            color: #ffffff; /* Set text color to contrast with the background image */
+            /* text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
+.herotext{
+    max-width: 400px;
+    color: rgba(231, 31, 31, 0.707);
+    
+}
+.h2{
+    font-family: fantasy;
+}
+.secondsection{
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/black/black-contour-f41038db.svg);
+    background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 200px; /* Adjust the height as needed */
+            color: #ffffff; /* Set text color to contrast with the background image */
+            /* text-align: center; */
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+}
+.firsttext{
+
+margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            line-height: 1.5;
+            justify-content: flex-start;
+            
+}
+.secondtext{
+
+    margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 10px;
+                line-height: 1.5;
+                width:50px
+    }
+
+.thirdtext{
+
+        margin-top: 10px;
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    line-height: 1.5;
+                    justify-content: flex-end;
+        }
+
+.thirdsection{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKIUzMElZQ7lQ5J-sonLEGXqJ3qusnDxPXuw&usqp=CAU);
+    background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center ;
+            height: 400px; /* Adjust the height as needed */
+            color: #ffffff; /* Set text color to contrast with the background image */
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 800px ;
+            width: 500px;
+            height: 500px;
+
+            
+            
+}
+.Contentofthirdsection{
+    /* padding-right: 1000px; */
+    /* flex: end;
+    justify-content: ; */
+    color: #fb08fb;
+
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    
+    background-color: #37475a;
+    color: #CCCCCC;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ */ */

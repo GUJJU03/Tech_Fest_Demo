@@ -1,0 +1,100 @@
+
+body{
+    background-color: #800101;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+}
+
+.btn-multicolor {
+    background: linear-gradient(to right, #ff00ff, #00ff00);
+    border: 5px solid #00ff00;
+
+    color: #fb0505;
+    transition: 0.3s, color 0.3s;
+}
+
+.btn-multicolor:hover {
+    background: linear-gradient(to right, #00ff00, #ff00ff);
+    color: #000000;
+    border-color: #ff00ff;
+}
+
+.navbar {
+    font-family: fantasy;
+    font-size: larger;
+}
+
+
+/* --------------------------------------- pinball -----------------------------------------------------  */
+
+
+.Cube,.Chess,.BoxCricket,.pinball{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Chess img {
+    width: 40vw;
+    height: 50vh;
+    border-radius: 25px;
+}
+.BoxCricket img {
+    width: 40vw;
+    height: 50vh;
+    border-radius: 25px;
+}
+.Cube img {
+    width: 40vw;
+    height: 50vh;
+    border-radius: 25px;
+}
+.pinball img {
+    width: 40vw;
+    height: 50vh;
+    border-radius: 25px;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 17px; /* Adjust the font size as needed */
+    font-family: fantasy;
+    text-align: center;
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.semi-boxcricket{
+    display: flex;
+}
+
+
+/* ----------------------------------------------------------- footer ---------------------------------------------  */
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    text-justify: auto;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin:0 25px;
+    
+}
+
+footer .lower-footer {
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
