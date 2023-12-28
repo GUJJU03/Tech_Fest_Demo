@@ -1,12 +1,6 @@
-body {
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
-    min-height: 100vh;
-    /* float: right; */
-    background: rgb(128, 1, 1);
+.body-section{
+    background-color: red;
 }
-/* ------------------------------------------------------ navbar -------------------------------------------------------  */
 .navbar {
     display: flex;
     background-color: black;
@@ -15,7 +9,7 @@ body {
 .btn-multicolor {
     background: linear-gradient(to right, #ff00ff, #00ff00);
     border: 5px solid #00ff00;
-
+    
     color: #fb0505;
     transition: 0.3s, color 0.3s;
 }
@@ -31,30 +25,51 @@ body {
     font-size: larger;
 }
 
-.container {
-    width: 50%;
+
+/* --------------------------------------------------------- hero-section -------------------------------------------------------- */
+.hero{
+    height: max-content;
+    width: 100%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    border-radius: 25px;
+    height: max-content;
+    width: 70%;
+}
+.main-text{
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    text-align: left;
+    justify-content: center;
 }
 
-.Hackathons {
-    float: right;
-    margin-bottom: 50px;
-    flex: end;
+/* --------------------------------------------------- footer ---------------------------------------------------------  */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    text-justify: auto;
+    text-align: center;
 }
 
-.image img {
-    width: 50%;
-    height: auto;
-    float: left;
-    padding-right: 50px;
+footer a {
+    text-decoration: none;
+    color: white;
+    margin:0 25px;
+    
 }
 
-.text {
-    color: rgb(1, 1, 20);
-    font-size: 16px; /* Adjust the font size as needed */
-    flex: end;
-    float:right;
-    font-family: fantasy;
-    text-align: right;
-    flex: 1;
-
+footer .lower-footer {
+    bottom: 0;
+    color: white;
+    text-align: center;
 }

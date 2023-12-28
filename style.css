@@ -48,8 +48,11 @@
 }
 
 .projection {
+    
     animation: left-side 1.5s;
     transition: 2s;
+    color: white;
+    font-size: 60px;
 }
 
 .hero-second {
